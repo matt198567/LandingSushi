@@ -1,0 +1,978 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1756215352051"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1756215352051">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<div class="header__logo">
+							<img src="./assets/img/logo.svg" alt="Logo">
+						</div>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link" data-fls-scrollto=".dishes" data-fls-scrollto-header="">Menu</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link" data-fls-scrollto=".our" data-fls-scrollto-header="">Quality food</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link" data-fls-scrollto=".events" data-fls-scrollto-header="">Fine Dining</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link" data-fls-scrollto=".about" data-fls-scrollto-header="">About</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<div class="header__inner">
+							<a href="" data-fls-button="" class="header__button button button--top">Reservation</a>
+							<button type="button" data-fls-menu="" class="icon-menu">
+								<span></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section data-fls-watcher="" class="page__hero hero">
+					<div class="hero__container">
+						<div data-fls-titlehead="" class="titlehead titlehead--hero">
+							<span class="titlehead__lable titlehead__lable--hero">Best sushi in town</span>
+							<h1 class="titlehead__title titlehead__title--hero">Taste the rich flavor of high quality sushi</h1>
+							<div class="titlehead__text titlehead__text--hero">
+								<p>
+									We only use the five star quality for our menu, come and get the
+            richness in every food we serve.
+								</p>
+							</div>
+						</div>
+						<div class="hero__button">
+							<a href="" data-fls-button="" class="button button--top button--price">Go to menu</a>
+						</div>
+					</div>
+					<div data-fls-scrollto=".hero" class="hero__wrap">
+						<button type="button" class="hero__arrow --icon-arrow-up"></button>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="page__dishes dishes">
+					<div class="dishes__container">
+						<div data-fls-titlehead="" class="titlehead dishes__wrap">
+							<span class="titlehead__lable">Special menu</span>
+							<h2 class="titlehead__title">Today’s Special</h2>
+							<div class="titlehead__text">
+								<p>
+									Special menu oftenly comes different everyday, this is our special
+            food for today
+								</p>
+							</div>
+						</div>
+						<div data-fls-slider="" class="dishes swiper">
+							<div class="dishes__wrapper swiper-wrapper">
+								<div class="dishes__slide swiper-slide">
+									<article class="dishes__body">
+										<a href="" class="dishes__link">
+											<div class="dishes__image">
+												<picture>
+													<img alt="Tuna Sushi" src="./assets/img/dishes/image.01.webp">
+												</picture>
+											</div>
+										</a>
+										<div class="dishes__inner">
+											<h3 class="dishes__title">Tuna Sushi</h3>
+											<div class="dishes__text">
+												<p>
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam ut imperdiet lectus.
+												</p>
+											</div>
+											<div data-fls-rating="set" data-fls-rating-value="5" class="rating dishes__ratings"></div>
+											<button type="button" class="dishes__button button button--top">Order Now</button>
+										</div>
+									</article>
+								</div>
+								<div class="dishes__slide swiper-slide">
+									<article class="dishes__body">
+										<a href="" class="dishes__link">
+											<div class="dishes__image">
+												<picture>
+													<img alt="Tuna Sushi" src="./assets/img/dishes/image.02.webp">
+												</picture>
+											</div>
+										</a>
+										<div class="dishes__inner">
+											<h3 class="dishes__title">Salmon Sushi</h3>
+											<div class="dishes__text">
+												<p>
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam ut imperdiet lectus.
+												</p>
+											</div>
+											<div data-fls-rating="set" data-fls-rating-value="5" class="rating dishes__ratings"></div>
+											<button type="button" class="dishes__button button button--top">Order Now</button>
+										</div>
+									</article>
+								</div>
+								<div class="dishes__slide swiper-slide">
+									<article class="dishes__body">
+										<a href="" class="dishes__link">
+											<div class="dishes__image">
+												<picture>
+													<img alt="Tuna Sushi" src="./assets/img/dishes/image.03.webp">
+												</picture>
+											</div>
+										</a>
+										<div class="dishes__inner">
+											<h3 class="dishes__title">Just Sushi</h3>
+											<div class="dishes__text">
+												<p>
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam ut imperdiet lectus.
+												</p>
+											</div>
+											<div data-fls-rating="set" data-fls-rating-value="5" class="rating dishes__ratings"></div>
+											<button type="button" class="dishes__button button button--top">Order Now</button>
+										</div>
+									</article>
+								</div>
+								<div class="dishes__slide swiper-slide">
+									<article class="dishes__body">
+										<a href="" class="dishes__link">
+											<div class="dishes__image">
+												<picture>
+													<img alt="Tuna Sushi" src="./assets/img/dishes/image.01.webp">
+												</picture>
+											</div>
+										</a>
+										<div class="dishes__inner">
+											<h3 class="dishes__title">Tuna Sushi</h3>
+											<div class="dishes__text">
+												<p>
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam ut imperdiet lectus.
+												</p>
+											</div>
+											<div data-fls-rating="set" data-fls-rating-value="5" class="rating dishes__ratings"></div>
+											<button type="button" class="dishes__button button button--top">Order Now</button>
+										</div>
+									</article>
+								</div>
+								<div class="dishes__slide swiper-slide">
+									<article class="dishes__body">
+										<a href="" class="dishes__link">
+											<div class="dishes__image">
+												<picture>
+													<img alt="Tuna Sushi" src="./assets/img/dishes/image.02.webp">
+												</picture>
+											</div>
+										</a>
+										<div class="dishes__inner">
+											<h3 class="dishes__title">Salmon Sushi</h3>
+											<div class="dishes__text">
+												<p>
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam ut imperdiet lectus.
+												</p>
+											</div>
+											<div data-fls-rating="set" data-fls-rating-value="5" class="rating dishes__ratings"></div>
+											<button type="button" class="dishes__button button button--top">Order Now</button>
+										</div>
+									</article>
+								</div>
+								<div class="dishes__slide swiper-slide">
+									<article class="dishes__body">
+										<a href="" class="dishes__link">
+											<div class="dishes__image">
+												<picture>
+													<img alt="Tuna Sushi" src="./assets/img/dishes/image.03.webp">
+												</picture>
+											</div>
+										</a>
+										<div class="dishes__inner">
+											<h3 class="dishes__title">Just Sushi</h3>
+											<div class="dishes__text">
+												<p>
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam ut imperdiet lectus.
+												</p>
+											</div>
+											<div data-fls-rating="set" data-fls-rating-value="5" class="rating dishes__ratings"></div>
+											<button type="button" class="dishes__button button button--top">Order Now</button>
+										</div>
+									</article>
+								</div>
+							</div>
+							<div class="dishes__dotts dotts"></div>
+						</div>
+					</div>
+					<div class="dishes__bgimage">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./assets/img/dishes/footer-600.webp" type="image/webp">
+							<source media="(max-width: 1200px)" srcset="./assets/img/dishes/footer-1200.webp" type="image/webp">
+							<img alt="Image" src="./assets/img/dishes/footer.webp">
+						</picture>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="page__our our">
+					<div class="our__container">
+						<div data-fls-titlehead="" class="titlehead our__head">
+							<span class="titlehead__lable">Quality food for you</span>
+							<h2 class="titlehead__title">Our Specialities</h2>
+							<div class="titlehead__text">
+								<p>
+									Authentic food from our restaurant served with high quality
+            ingredients
+								</p>
+							</div>
+						</div>
+						<div class="masonry">
+							<ul class="masonry__filter filter-masonry">
+								<li class="filter-masonry__item">
+									<button type="button" data-fls-button="" data-fls-masonry-filter-link="a" class="filter-masonry__link filter-masonry__link--active button button--white">Specialities</button>
+								</li>
+								<li class="filter-masonry__item">
+									<button type="button" data-fls-button="" data-fls-masonry-filter-link="b" data-titlehead-label="Delicious Sushi" data-titlehead-title="Homestyle Sushi" data-titlehead-text="Fresh and authentic sushi, made with love." class="filter-masonry__link button button--white">Homestyle Sushi</button>
+								</li>
+								<li class="filter-masonry__item">
+									<button type="button" data-fls-button="" data-fls-masonry-filter-link="c" class="filter-masonry__link button button--white">Steak</button>
+								</li>
+								<li class="filter-masonry__item">
+									<button type="button" data-fls-button="" data-fls-masonry-filter-link="d" class="filter-masonry__link button button--white">With Rice</button>
+								</li>
+								<li class="filter-masonry__item">
+									<button type="button" data-fls-button="" data-fls-masonry-filter-link="e" class="filter-masonry__link button button--white">Cocktails</button>
+								</li>
+								<li class="filter-masonry__item">
+									<button type="button" data-fls-button="" data-fls-masonry-filter-link="f" class="filter-masonry__link button button--white">Wine</button>
+								</li>
+								<li class="filter-masonry__item">
+									<button type="button" data-fls-button="" data-fls-masonry-filter-link="g" class="filter-masonry__link button button--white">Appetizer</button>
+								</li>
+							</ul>
+							<div data-fls-masonry="" class="masonry__items">
+								<div data-fls-watcher="" data-fls-masonry-item="" data-fls-masonry-filter="a" class="masonry__item">
+									<div class="our__inner">
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.01-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.01.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Dragon Sushi</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.02-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.02.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Creamy Sushi</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.03-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.03.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Roll Salmon Sushi</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-fls-masonry-item="" data-fls-masonry-filter="b" class="masonry__item">
+									<div class="our__inner">
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.04-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.04.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Dragon Sushi</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.05-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.05.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Creamy Sushi</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.06-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.06.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Roll Salmon Sushi</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-fls-masonry-item="" data-fls-masonry-filter="c" class="masonry__item">
+									<div class="our__inner">
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.07-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.07.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Steak</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.08-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.08.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Steak</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.09-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.09.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Steak</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-fls-masonry-item="" data-fls-masonry-filter="d" class="masonry__item">
+									<div class="our__inner">
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.10-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.10.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">With Rice</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.11-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.11.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">With Rice</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.12-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.12.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">With Rice</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-fls-masonry-item="" data-fls-masonry-filter="e" class="masonry__item">
+									<div class="our__inner">
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.13-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.13.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Cocktails</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.14-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.14.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Cocktails</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.15-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.15.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Cocktails</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-fls-masonry-item="" data-fls-masonry-filter="f" class="masonry__item">
+									<div class="our__inner">
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.16-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.16.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Wine</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.17-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.17.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Wine</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.18-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.18.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Wine</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-fls-masonry-item="" data-fls-masonry-filter="g" class="masonry__item">
+									<div class="our__inner">
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.19-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.19.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Appetizer</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.20-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.20.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Appetizer</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+										<div class="our__body">
+											<a href="#" class="our__link">
+												<div class="our__image">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/our/image.21-600.webp" type="image/webp">
+														<img alt="Image Sushi" src="./assets/img/our/image.21.webp">
+													</picture>
+												</div>
+											</a>
+											<div class="our__content">
+												<h3 class="our__title">Appetizer</h3>
+												<div class="our__text">
+													<p>
+														Ingredients: Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Etiam ut imperdiet lectus. Donec vitae
+                      vulputate nunc, in laoreet urna.
+													</p>
+												</div>
+												<div class="our__price">$50</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="page__events events">
+					<div class="events__container">
+						<div data-fls-titlehead="" class="titlehead events__wrap">
+							<span class="titlehead__lable">Choose your event</span>
+							<h2 class="titlehead__title">Dining Events</h2>
+							<div class="titlehead__text">
+								<p>
+									We provide dining event for your special day with your important
+            people
+								</p>
+							</div>
+						</div>
+						<div class="masonry">
+							<ul class="masonry__filter filter-masonry">
+								<li class="filter-masonry__item">
+									<button type="button" data-fls-button="" data-fls-masonry-filter-link="a" class="filter-masonry__link filter-masonry__link--active button button--white">Private Events</button>
+								</li>
+								<li class="filter-masonry__item">
+									<button type="button" data-fls-button="" data-fls-masonry-filter-link="b" class="filter-masonry__link button button--white">Corporate Events</button>
+								</li>
+							</ul>
+							<div data-fls-masonry="" class="masonry__items">
+								<div data-fls-watcher="" data-fls-masonry-item="" data-fls-masonry-filter="a" class="masonry__item">
+									<div class="events__inner">
+										<div class="events__body">
+											<div class="events__content">
+												<div class="events__price">$500</div>
+												<div class="events__box">
+													<h4 class="events__title">Fine Dining</h4>
+													<div class="events__text">
+														<p>Bottle of Champagne Fine Sushi Tower For 2+ Dessert</p>
+													</div>
+												</div>
+											</div>
+											<div class="events__image">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/events/image.01-600.webp" type="image/webp">
+													<img alt="Image" src="./assets/img/events/image.01.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="events__body">
+											<div class="events__content">
+												<div class="events__price">$1000</div>
+												<div class="events__box">
+													<h4 class="events__title">Gold Dining</h4>
+													<div class="events__text">
+														<p>Bottle of Champagne Secret Menu Sushi For 2+ Dessert</p>
+													</div>
+												</div>
+											</div>
+											<div class="events__image">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/events/image.02-600.webp" type="image/webp">
+													<img alt="Image" src="./assets/img/events/image.02.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="events__body">
+											<div class="events__content">
+												<div class="events__price">$1500</div>
+												<div class="events__box">
+													<h4 class="events__title">Royalty Dinning</h4>
+													<div class="events__text">
+														<p>
+															Bottle of Luxury Champagne Special Menu Sushi For 2+
+                        Royal Dessert
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="events__image">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/events/image.03-600.webp" type="image/webp">
+													<img alt="Image" src="./assets/img/events/image.03.webp">
+												</picture>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-fls-masonry-item="" data-fls-masonry-filter="b" class="masonry__item">
+									<div class="events__inner">
+										<div class="events__body">
+											<div class="events__content">
+												<div class="events__price">$500</div>
+												<div class="events__box">
+													<h4 class="events__title">Fine Dining</h4>
+													<div class="events__text">
+														<p>Bottle of Champagne Fine Sushi Tower For 2+ Dessert</p>
+													</div>
+												</div>
+											</div>
+											<div class="events__image">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/events/image.04-600.webp" type="image/webp">
+													<img alt="Image" src="./assets/img/events/image.04.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="events__body">
+											<div class="events__content">
+												<div class="events__price">$1000</div>
+												<div class="events__box">
+													<h4 class="events__title">Gold Dining</h4>
+													<div class="events__text">
+														<p>Bottle of Champagne Secret Menu Sushi For 2+ Dessert</p>
+													</div>
+												</div>
+											</div>
+											<div class="events__image">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/events/image.05-600.webp" type="image/webp">
+													<img alt="Image" src="./assets/img/events/image.05.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="events__body">
+											<div class="events__content">
+												<div class="events__price">$1500</div>
+												<div class="events__box">
+													<h4 class="events__title">Royalty Dinning</h4>
+													<div class="events__text">
+														<p>
+															Bottle of Luxury Champagne Special Menu Sushi For 2+
+                        Royal Dessert
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="events__image">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/events/image.06-600.webp" type="image/webp">
+													<img alt="Image" src="./assets/img/events/image.06.webp">
+												</picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="events__bgimage">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./assets/img/events/bgsushi-600.webp" type="image/webp">
+							<source media="(max-width: 1200px)" srcset="./assets/img/events/bgsushi-1200.webp" type="image/webp">
+							<img alt="Image Fish" src="./assets/img/events/bgsushi.webp">
+						</picture>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="page__about about">
+					<div class="about__container">
+						<div data-fls-titlehead="" class="titlehead about__head">
+							<span class="titlehead__lable">About us</span>
+							<h2 class="titlehead__title">Our Story</h2>
+							<div class="titlehead__text">
+								<p>
+									A journey for making successful luxury restaurant with the best
+            services
+								</p>
+							</div>
+						</div>
+						<div class="about__body">
+							<div class="about__images">
+								<div class="about__image--left">
+									<picture>
+										<img alt="Image Cook" src="./assets/img/about/image.01.webp">
+									</picture>
+								</div>
+								<div class="about__image--right">
+									<picture>
+										<img alt="Image Cook" src="./assets/img/about/image.02.webp">
+									</picture>
+									<picture>
+										<img alt="Image Cook" src="./assets/img/about/image.03.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="about__inner">
+								<div data-fls-showmore="" class="about">
+									<div data-fls-showmore-content="120" class="about__content">
+										<div class="about__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer feugiat urna id leo euismod rhoncus. Aliquam erat
+                  volutpat. Nulla id aliquam neque, at dignissim quam. Praesent
+                  et lacus accumsan, consequat nisl a, mattis sapien.
+											</p>
+										</div>
+										<div class="about__text">
+											<p>
+												Nam sodales ullamcorper aliquet. Phasellus ut pretium libero,
+                  vitae imperdiet purus. Sed sed tincidunt velit. Aliquam vitae
+                  ipsum molestie, vehicula nisi quis, finibus leo.
+											</p>
+										</div>
+									</div>
+									<button data-fls-showmore-button="" type="button" class="about__more button button--top">More about us</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body">
+						<h5 class="footer__title">We ready to have you the best dining experiences</h5>
+						<div class="footer__contacts">
+							<a href="https://www.google.com/maps/place/Wisma+Sudirman+Bandar+Lampung/@-5.4227826,105.2679589,18.64z/data=!4m6!3m5!1s0x2e40dbb4861d572f:0xaea643b22214cd6d!8m2!3d-5.4229663!4d105.268907!16s%2Fg%2F11f101y583?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="footer__adress">
+								<span class="--icon-map"></span>
+								Jendral Sudirman Street Pahoman
+          Bandar Lampung, Lampung, 35222
+							</a>
+							<a href="tel:+0721471285" class="footer__phone">
+								<span class="--icon-phone"></span>
+								<span class="footer__phone-text">
+									<span class="footer__phone-label">Call us:</span>
+									<span class="footer__phone-number">+0721 471 285</span>
+								</span>
+							</a>
+						</div>
+						<div class="footer__inner">
+							<button type="button" class="footer__button button">Reserve a Table</button>
+							<a href="" class="footer__logo">
+								<img src="./assets/img/logofooter.svg" alt="Logo">
+							</a>
+						</div>
+						<div class="footer__social">
+							<a href="#" class="footer__link">Instagram</a>
+							<a href="#" class="footer__link">Twitter</a>
+							<a href="#" class="footer__link">Facebook</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
